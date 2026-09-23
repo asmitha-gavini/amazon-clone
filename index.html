@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon.in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP NAVBAR -->
+
+    <div class="navbar">
+
+        <div class="logo">
+            amazon
+        </div>
+
+        <div class="location">
+            <small>Deliver to</small>
+            <b>India</b>
+        </div>
+
+        <div class="search">
+
+            <select>
+                <option>All</option>
+                <option>Electronics</option>
+                <option>Fashion</option>
+                <option>Books</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon.in">
+
+            <button onclick="search()">🔍</button>
+
+        </div>
+
+        <div class="language">
+            EN
+        </div>
+
+        <div class="account" onclick="login()">
+            <small>Hello, sign in</small>
+            <b>Account & Lists</b>
+        </div>
+
+        <div class="orders">
+            <small>Returns</small>
+            <b>& Orders</b>
+        </div>
+
+        <div class="cart" onclick="cart()">
+            🛒 Cart
+        </div>
+
+    </div>
+
+
+    <!-- SECOND NAVBAR -->
+
+    <div class="menu">
+
+        <a href="#" onclick="menu()">☰ All</a>
+        <a href="#products">Fresh</a>
+        <a href="#products">Amazon MiniTV</a>
+        <a href="#products">Sell</a>
+        <a href="#products">Best Sellers</a>
+        <a href="#products">Today's Deals</a>
+        <a href="#products">Mobiles</a>
+        <a href="#products">Customer Service</a>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <div class="hero">
+
+        <h1>Welcome to Amazon</h1>
+
+        <p>Shop the latest products at great prices</p>
+
+        <button onclick="shop()">Shop Now</button>
+
+    </div>
+
+
+    <!-- PRODUCTS -->
+
+    <div class="products" id="products">
+
+        <div class="card">
+
+            <h2>Electronics</h2>
+
+            <img src="electronics.jpg">
+
+            <a href="#" onclick="viewProduct()">See more</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Fashion</h2>
+
+            <img src="fashion.jpg">
+
+            <a href="#" onclick="viewProduct()">See more</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Home & Kitchen</h2>
+
+            <img src="home.jpg">
+
+            <a href="#" onclick="viewProduct()">See more</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Books</h2>
+
+            <img src="books.jpg">
+
+            <a href="#" onclick="viewProduct()">See more</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- DEALS -->
+
+    <div class="deals">
+
+        <h2>Today's Deals</h2>
+
+        <div class="deal-box">
+
+            <div>
+                <img src="phone.jpg">
+                <p>Smartphones</p>
+            </div>
+
+            <div>
+                <img src="headphones.jpg">
+                <p>Headphones</p>
+            </div>
+
+            <div>
+                <img src="watch.jpg">
+                <p>Smart Watches</p>
+            </div>
+
+            <div>
+                <img src="laptop.jpg">
+                <p>Laptops</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <h2>amazon</h2>
+
+        <p>© 2026 Amazon Clone</p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
